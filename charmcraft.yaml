@@ -1,0 +1,26 @@
+name: home-assistant
+type: charm
+title: HomeAssistant
+summary: A charmed version of the HomeAssistant snap
+description: |
+  Open source home automation that puts local control and privacy first.
+  Powered by a worldwide community of tinkerers and DIY enthusiasts.
+  Perfect to run on a Raspberry Pi or a local server. 
+links:
+  documentation: https://www.home-assistant.io/docs/
+  issues:
+    - https://github.com/charming-cottage/homeassistant-charm/issues
+  source:
+    - https://github.com/home-assistant
+    - https://git.giaever.org/joachimmg/home-assistant-snap
+    - https://github.com/charming-cottage/homeassistant-charm
+  website:
+    - https://www.home-assistant.io/
+    - https://snapcraft.io/home-assistant-snap
+bases:
+  - build-on:
+    - name: ubuntu
+      channel: "22.04"
+    run-on:
+    - name: ubuntu
+      channel: "22.04"
