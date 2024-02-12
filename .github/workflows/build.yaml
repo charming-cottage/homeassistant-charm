@@ -7,7 +7,6 @@ on:
       - "hotfix/*"
       - "release/*"
       - "renovate/*"
-      - "test-build"
   pull_request:
 
 jobs:
